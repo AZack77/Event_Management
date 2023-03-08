@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+  /* background-color: black; */
+  min-height: 100vh;
+  /* background-image: linear-gradient(#6dbbb7,#d4e5e4); */
+}
+@font-face {
+  font-family: 'Rocher';
+  src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
+}
+.nab
+{
+  background-color: #c6f0ee;
+}
+.cr
+{
+  margin-left: 20px;
+  font-size: large;
+}
+.cplace
+{
+  margin-top: 50px;
+  margin-left: 450px;
+  width: 400px;
+  height: 800px;
+  border-radius: 15px;
+  background-color: #3AAFA9;
+  padding-top: 20px;
+  padding-left: 60px;
+  margin-bottom: 20px;
+}
+@font-palette-values --Mint {
+  font-family: Rocher;
+  base-palette: 7;
+}
+.uhead
+{
+  margin-top: 50px;
+  font-palette: --Mint;
+}
+.ubtn
+{
+  color: black;
+}
+.uplace
+{
+  margin-top: 50px;
+  margin-left: 450px;
+  width: 400px;
+  height: 900px;
+  background-color: #3AAFA9;
+  border-radius: 15px;
+  padding-top: 20px;
+  padding-left: 60px;
+  margin-bottom: 20px;
+}
+
+.fplace
+{
+  margin-top: 50px;
+  margin-left: 450px;
+  width: 400px;
+  height: 450px;
+  background-color: #3AAFA9;
+  border-radius: 20px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 60px;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.reg
+{
+  text-decoration: none;
+}
+.all-events
+{
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* background-color: #0180ff; */
+  /* margin: 10px; */
+}
+.header{
+  margin-top: 30px;
+}
+
+.single
+{
+  margin: 10px;
+}
